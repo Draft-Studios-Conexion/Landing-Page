@@ -53,23 +53,47 @@
               <br />
               <p>Launching Spring 2020. Want to know more?</p>
               <p id="signup-descr">Sign up below for launch updates</p>
-              <div>
-                <input type="text" />
-                <input type="text" />
-                <div class="form-group mx-sm-3">
+
+              <!-- Start of Form -->
+              <div class="form">
+                <!-- Start Name Form -->
+                <div class="form-row">
+                  <div id="name" class="col">
+                    <input
+                      type="text"
+                      class="form-control border-bottom transparent"
+                      placeholder="First Name"
+                    />
+                  </div>
+                  <div id="lastname" class="col">
+                    <input
+                      type="text"
+                      class="form-control transparent"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
+                <!-- End of Name Form -->
+                <br>
+                <!-- Second Sign Up Form -->
+                <div class="form-row">
+                  <div class="col-lg-10">
+                    <input
+                      type="email"
+                      class="form-control transparent"
+                      placeholder="Enter your email address"
+                    />
+                  </div class="col-lg-4">
                   <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Enter your email address"
+                    type="button"
+                    class="btn btn-warning"
+                    value="Send"
+                    placeholder="SEND"
                   />
                 </div>
-                <input
-                  type="button"
-                  class="btn btn-warning"
-                  value="Send"
-                  placeholder="SEND"
-                />
               </div>
+              <!-- End of Second Sign Up Form -->
+              <!-- End of Form -->
             </div>
           </div>
         </div>

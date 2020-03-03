@@ -30,3 +30,9 @@
     line-height: 47px;
     color: #f9a058;
 }
+
+.transparent {
+    background-color: transparent;
+    /* border: none;
+    border-bottom-color: white; */
+}
