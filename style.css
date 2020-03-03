@@ -1,0 +1,32 @@
+#main {
+    height: 100vh;
+    background: url("./images/AdobeStock_300143060.jpeg");
+    background-size: cover;
+    position: relative;
+}
+
+.overlay-effect {
+    background-color: rgba(112, 31, 88, 0.7);
+}
+
+#c-name {
+    font-family: Gibson;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: normal;
+}
+
+#motto {
+    font-family: Gibson;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 47px;
+}
+
+#signup-descr {
+    font-family: Gibson;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 47px;
+    color: #f9a058;
+}
