@@ -31,13 +31,13 @@
           <div class="row d-flex justify-content-left pl-5 ml-5">
             <!-- Start of Col -->
             <div class="col-6-lg align-middle pt-5 mt-5">
-              <div class="col-12" id="c-name">
+              <div class="col-12 pl-0" id="c-name">
                 <!-- Title -->
                 <h3>Conexion</h3>
                 <!-- End of Title -->
               </div>
               <!-- Start of Motto -->
-              <div class="col-12">
+              <div class="col-12 pl-0">
                 <h1 id="motto">
                   Start speaking to <br />
                   <span style="color: #f9a058;">your next customer.</span>
@@ -45,15 +45,16 @@
               </div>
               <!-- End of Motto -->
               <!-- Start of description -->
-              <p>
-                Conexion is an easy-to-use application that helps
-                <br />marketers turn endless data into useful insights.
-              </p>
-              <!-- End of description -->
-              <br />
-              <p>Launching Spring 2020. Want to know more?</p>
-              <p id="signup-descr">Sign up below for launch updates</p>
-
+              <div id="description">
+                <p>
+                  Conexion is an easy-to-use application that helps
+                  <br />marketers turn endless data into useful insights.
+                </p>
+                <!-- End of description -->
+                <br />
+                <p>Launching Spring 2020. Want to know more?</p>
+                <p id="signup-descr">Sign up below for launch updates</p>
+              </div>
               <!-- Start of Form -->
               <div class="form">
                 <!-- Start Name Form -->
@@ -61,7 +62,7 @@
                   <div id="name" class="col">
                     <input
                       type="text"
-                      class="form-control border-bottom transparent sharp"
+                      class="form-control transparent sharp"
                       placeholder="First Name"
                     />
                   </div>
@@ -74,7 +75,7 @@
                   </div>
                 </div>
                 <!-- End of Name Form -->
-                <br>
+                <br />
                 <!-- Second Sign Up Form -->
                 <div class="form-row">
                   <div class="col-lg-10">
@@ -83,13 +84,15 @@
                       class="form-control transparent sharp"
                       placeholder="Enter your email address"
                     />
-                  </div class="col-lg-6">
-                  <input
-                    type="button"
-                    class="btn btn-warning sharp"
-                    value="Send"
-                    placeholder="SEND"
-                  />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="button"
+                      class="btn btn-warning sharp"
+                      value="Send"
+                      placeholder="SEND"
+                    />
+                  </div>
                 </div>
               </div>
               <!-- End of Second Sign Up Form -->
