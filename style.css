@@ -26,7 +26,7 @@
     line-height: 47px;
 }
 
-#description {
+.description {
     color: #f9eddc;
 }
 
@@ -52,4 +52,21 @@
 
 .sharp {
     border-radius: 0%;
+}
+
+/**** Mobile View ****/
+#small-v {
+    overflow-x: hidden;
+    height: auto;
+}
+
+#c-image {
+    height: 30vh;
+    /* background: url("./images/AdobeStock_300143060.jpeg"); */
+    /* background-size: cover; */
+    /* position: relative; */
+}
+
+#description-sm-v {
+    background-color: #701f58;
 }
