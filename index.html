@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--- basic page needs ================================================== -->
+  <meta charset="utf-8" />
+  <title>Conexion</title>
+  <meta name="description" content="" />
+  <meta name="author" zl content="" />
+  <!-- mobile specific metas ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- BootStrap CSS ================================================== -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!-- CSS ================================================== -->
+  <link rel="stylesheet" href="./srcs/styles/style.css" />
+  <!-- script ================================================== -->
+  <!-- favicons ================================================== -->
+</head>
+
+<body>
+  <!-- Start of Landing Page -->
+  <section class="overlay d-none d-sm-block" id="main">
+    <!-- Begin of Conatiner -->
+    <div class="overlay-effect h-100 w-100">
+      <div class="container-fluid">
+        <!-- Start of Row -->
+        <div class="row d-flex justify-content-left pl-5 ml-5">
+          <!-- Start of Col -->
+          <div class="col-6-lg align-middle pt-5 mt-5">
+            <!-- Title -->
+            <div class="col-12 pl-0" id="c-name">
+              <h3 class="d-none d-sm-block">LOGO Conexion</h3>
+            </div>
+            <!-- End of Title -->
+            <!-- Start of Motto -->
+            <div class="col-12 pl-0">
+              <h1 id="motto">
+                Start speaking to <br />
+                <span style="color: #f9a058;">your next customer.</span>
+              </h1>
+              <!-- Start of description -->
+              <br />
+              <div class="description">
+                <p>
+                  Conexion is an easy-to-use application that helps
+                  <br />marketers turn endless data into useful insights.
+                </p>
+                <!-- End of description -->
+                <br />
+              </div>
+            </div>
+            <!-- End of Motto -->
+            <!-- Start of Form -->
+            <div class="form">
+              <p class="description">
+                Launching Spring 2020. Want to know more?
+              </p>
+              <p id="signup-descr">Sign up below for launch updates</p>
+              <!-- Start Name Form -->
+              <div class="form-row">
+                <div id="name" class="col">
+                  <input type="text" class="form-control transparent sharp" placeholder="First Name" />
+                </div>
+                <div id="lastname" class="col">
+                  <input type="text" class="form-control transparent sharp" placeholder="Last Name" />
+                </div>
+              </div>
+              <!-- End of Name Form -->
+              <br />
+              <!-- Second Sign Up Form -->
+              <div class="form-row">
+                <div class="col-lg-10">
+                  <input type="email" class="form-control transparent sharp" placeholder="Enter your email address" />
+                </div>
+                <div class="col">
+                  <input type="button" class="btn btn-warning sharp" value="Send" placeholder="SEND" />
+                </div>
+              </div>
+            </div>
+            <!-- End of Second Sign Up Form -->
+            <!-- End of Form -->
+          </div>
+          <!-- End of Col -->
+        </div>
+        <!-- End of Row -->
+      </div>
+    </div>
+  </section>
+  <!-- End of Landing Page -->
+
+  <section id="small-v" class="overlay d-block d-sm-none">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <!-- Start of Logo -->
+        <nav id="navabar" class="navbar navbar-light navbar-expand-lg">
+          <h1 class="navbar-brand">LOGO conexion</h1>
+        </nav>
+        <!-- End of Logo -->
+        <!-- Start of IMG -->
+        <div class="overlay w-100 h-100">
+          <div class="row">
+            <img src="./srcs/images/AdobeStock_300143060.jpeg" alt="Company image" class="img-fluid over" />
+            <!-- Image overlay -->
+            <div class="overlay-effect-mob"> </div>
+          </div>
+        </div>
+        <!-- End of IMG -->
+        <!-- Start of Form -->
+        <div class="col text-center" id="description-sm-v">
+          <div class="py-4">
+            <h3>
+              Start speaking to <br />
+              <span>your next customer</span>
+            </h3>
+          </div>
+          <div class="description">
+            <p>
+              Conexion is an easy-to-use application that helps
+              <br />
+              marketers turn endless data into useful insights.
+            </p>
+            <br />
+            <p>
+              Launching Spring 2020 <br />
+              Want to know more?
+            </p>
+          </div>
+          <br />
+          <div class="form pb-5">
+            <div>
+              <p>Sign up below for launch updates!</p>
+            </div>
+
+            <!-- Start Name Form -->
+            <div class="form-row">
+              <div id="name" class="col">
+                <input type="text" class="form-control transparent sharp" placeholder="First Name" />
+              </div>
+              <div id="lastname" class="col">
+                <input type="text" class="form-control transparent sharp" placeholder="Last Name" />
+              </div>
+            </div>
+            <!-- End of Name Form -->
+            <br />
+            <!-- Second Sign Up Form -->
+            <div class="form-row">
+              <div class="col">
+                <input type="email" class="form-control transparent sharp" placeholder="Enter your email address" />
+              </div>
+            </div>
+            <br />
+            <div class="form-row">
+              <div class="col-12">
+                <input type="button" class="btn btn-lg btn-block btn-warning sharp" value="Send" placeholder="SEND" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Form -->
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- First JQuery first, Propper next and then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
