@@ -30,7 +30,7 @@
           <div class="col-6-lg align-middle pt-5 mt-5">
             <!-- Title -->
             <div class="col-12 pl-0" id="c-name">
-              <h3 class="d-none d-sm-block">LOGO Conexion</h3>
+              <img src="./srcs/images/Conexion-logo-white.png" width="230" alt="Company logo">
             </div>
             <!-- End of Title -->
             <!-- Start of Motto -->
@@ -39,24 +39,25 @@
                 Start speaking to <br />
                 <span style="color: #f9a058;">your next customer.</span>
               </h1>
-              <!-- Start of description -->
               <br />
+              <!-- Start of description -->
               <div class="description">
                 <p>
                   Conexion is an easy-to-use application that helps
                   <br />marketers turn endless data into useful insights.
                 </p>
-                <!-- End of description -->
                 <br />
               </div>
+              <!-- End of description -->
             </div>
             <!-- End of Motto -->
             <!-- Start of Form -->
             <div class="form">
-              <p class="description">
+              <p class="form-info">
                 Launching Spring 2020. Want to know more?
+                <br>
+                <span id="signup-descr">Sign up below for launch updates</span>
               </p>
-              <p id="signup-descr">Sign up below for launch updates</p>
               <!-- Start Name Form -->
               <div class="form-row">
                 <div id="name" class="col">
@@ -89,12 +90,17 @@
   </section>
   <!-- End of Landing Page -->
 
+  <!-- Mobile View -->
   <section id="small-v" class="overlay d-block d-sm-none">
     <div class="container-fluid">
       <div class="row d-flex justify-content-center">
         <!-- Start of Logo -->
         <nav id="navabar" class="navbar navbar-light navbar-expand-lg">
-          <h1 class="navbar-brand">LOGO conexion</h1>
+          <div class="navbar-brand">
+            <img src="./srcs/images/Conexion-logo-horizontal.png" width="220" class="img-fluid d-inline-block align-top"
+              alt="Company logo">
+          </div>
+          <!-- <h1 class="navbar-brand">LOGO conexion</h1> -->
         </nav>
         <!-- End of Logo -->
         <!-- Start of IMG -->
@@ -106,12 +112,11 @@
           </div>
         </div>
         <!-- End of IMG -->
-        <!-- Start of Form -->
         <div class="col text-center" id="description-sm-v">
-          <div class="py-4">
+          <div class="py-4" id="mainTxt">
             <h3>
               Start speaking to <br />
-              <span>your next customer</span>
+              <span style="color: #f9a058;">your next customer</span>
             </h3>
           </div>
           <div class="description">
@@ -121,14 +126,16 @@
               marketers turn endless data into useful insights.
             </p>
             <br />
-            <p>
-              Launching Spring 2020 <br />
-              Want to know more?
-            </p>
+            <div class="launching-mv">
+              <p>
+                Launching Spring 2020 <br />
+                Want to know more?
+              </p>
+            </div>
           </div>
           <br />
           <div class="form pb-5">
-            <div>
+            <div id="motto-mv">
               <p>Sign up below for launch updates!</p>
             </div>
 
@@ -157,12 +164,11 @@
             </div>
           </div>
         </div>
-        <!-- End of Form -->
-
       </div>
     </div>
     </div>
   </section>
+  <!-- End of Mobile View -->
 
   <!-- First JQuery first, Propper next and then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

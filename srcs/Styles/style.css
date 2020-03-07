@@ -1,10 +1,11 @@
 /******* Fonts ********/
 @font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-Bold.otf");
+    src: url('../fonts/._Gibson-Bold.otf') format('truetype');
+    font-family: "gibson-b";
+    font-weight: 600;
 }
 
-@font-face {
+/*@font-face {
     font-family: Gibson;
     src: url("../fonts/._Gibson-BoldItalic.otf");
 }
@@ -22,14 +23,14 @@
 @font-face {
     font-family: Gibson;
     src: url("../fonts/._Gibson-LightItalic.otf");
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: Gibson;
     src: url("../fonts/._Gibson-Regular.otf");
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: Gibson;
     src: url("../fonts/._Gibson-SemiBold.otf");
 }
@@ -37,7 +38,7 @@
 @font-face {
     font-family: Gibson;
     src: url("../fonts/._Gibson-SemiBoldItalic.otf");
-}
+} */
 
 /******* Window View *******/
 #main {
@@ -51,31 +52,34 @@
     background-color: rgba(112, 31, 88, 0.7);
 }
 
-#c-name {
-    color: #eadfe8;
-    font-family: Gibson;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: normal;
-}
 
 #motto {
     color: #f9eddc;
-    font-family: Gibson;
-    font-weight: 600;
+    /* font-family: "Gibson-bold"; */
+    font-weight: 700;
     font-size: 48px;
     line-height: 47px;
 }
 
 .description {
     color: #f9eddc;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.form-info {
+    color: #f9eddc;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
 }
 
 #signup-descr {
-    font-family: Gibson;
-    font-weight: 600;
+    /* font-family: Gibson-bold; */
+    font-weight: 700;
     font-size: 24px;
-    line-height: 47px;
+    line-height: 30px;
     color: #f9a058;
 }
 
@@ -101,16 +105,11 @@
     height: auto;
 }
 
-#navbar {
-    z-index: 1;
+.navbar,
+.navbar-brand {
+    padding: 0;
+    margin: 0;
 }
-
-/* #c-image {
-    height: 30vh;
-    background: url("./images/AdobeStock_300143060.jpeg");
-    background-size: cover;
-    position: relative; */
-/* } */
 
 .overlay-effect-mob {
     background-color: rgba(112, 31, 88, 0.7);
@@ -121,6 +120,26 @@
     overflow-x: hidden;
 }
 
+#mainTxt h3 {
+    color: #f9eddc;
+    /* font-family: gibson-b; */
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+}
+
 #description-sm-v {
     background-color: #701f58;
+}
+
+.launching-mv {
+    font-weight: 600;
+}
+
+#motto-mv {
+    color: #f9a058;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 47px;
+
 }
