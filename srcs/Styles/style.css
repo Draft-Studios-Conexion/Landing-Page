@@ -134,7 +134,6 @@
 
 .launching-mv {
   font-size: 16px;
-  /* font-weight: 600; */
 }
 
 #signup-info-mv {
@@ -147,5 +146,24 @@
 @media only screen and (max-width:400px) {
   #signup-info-mv {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width:350px) {
+  #titleTxt h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .description-sm {
+    font-size: 12px;
+  }
+
+  .launching-mv p {
+    margin-bottom: 0;
+  }
+
+  #signup-info-mv {
+    font-size: 15px;
   }
 }
