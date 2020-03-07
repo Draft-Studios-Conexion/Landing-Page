@@ -1,8 +1,8 @@
 /******* Fonts ********/
 @font-face {
-    src: url('../fonts/._Gibson-Bold.otf') format('truetype');
-    font-family: "gibson-b";
-    font-weight: 600;
+  src: url("../fonts/._Gibson-Bold.otf") format("truetype");
+  font-family: "gibson-b";
+  font-weight: 600;
 }
 
 /*@font-face {
@@ -42,104 +42,103 @@
 
 /******* Window View *******/
 #main {
-    height: 100vh;
-    background: url("../images/AdobeStock_300143060.jpeg");
-    background-size: cover;
-    position: relative;
+  height: 100vh;
+  background: url("../images/AdobeStock_300143060.jpeg");
+  background-size: cover;
+  position: relative;
 }
 
 .overlay-effect {
-    background-color: rgba(112, 31, 88, 0.7);
+  background-color: rgba(112, 31, 88, 0.7);
 }
 
-
 #motto {
-    color: #f9eddc;
-    /* font-family: "Gibson-bold"; */
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 47px;
+  color: #f9eddc;
+  /* font-family: "Gibson-bold"; */
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 47px;
 }
 
 .description {
-    color: #f9eddc;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: normal;
+  color: #f9eddc;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
 }
 
 .form-info {
-    color: #f9eddc;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: normal;
+  color: #f9eddc;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
 }
 
 #signup-descr {
-    /* font-family: Gibson-bold; */
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color: #f9a058;
+  /* font-family: Gibson-bold; */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #f9a058;
 }
 
 .transparent {
-    background-color: transparent;
-    border: 0;
-    outline: 0;
-    border-bottom: 2px solid white;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid white;
 }
 
 .transparent:focus {
-    background-color: transparent;
-    outline: none !important;
+  color: white;
+  background-color: transparent;
+  outline: none !important;
 }
 
 .sharp {
-    border-radius: 0%;
+  border-radius: 0%;
 }
 
 /**** Mobile View ****/
 #small-v {
-    overflow-x: hidden;
-    height: auto;
+  overflow-x: hidden;
+  height: auto;
 }
 
 .navbar,
 .navbar-brand {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .overlay-effect-mob {
-    background-color: rgba(112, 31, 88, 0.7);
-    position: absolute;
-    left: 0;
-    min-width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+  background-color: rgba(112, 31, 88, 0.7);
+  position: absolute;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 #mainTxt h3 {
-    color: #f9eddc;
-    /* font-family: gibson-b; */
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 47px;
+  color: #f9eddc;
+  /* font-family: gibson-b; */
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
 }
 
 #description-sm-v {
-    background-color: #701f58;
+  background-color: #701f58;
 }
 
 .launching-mv {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 #motto-mv {
-    color: #f9a058;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 47px;
-
+  color: #f9a058;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 47px;
 }
