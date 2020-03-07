@@ -1,44 +1,28 @@
 /******* Fonts ********/
 @font-face {
-  src: url("../fonts/._Gibson-Bold.otf") format("truetype");
-  font-family: "gibson-b";
-  font-weight: 600;
-}
-
-/*@font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-BoldItalic.otf");
+  font-family: Gibson;
+  src: url("../fonts/Gibson/Gibson-Regular.otf") format('opentype');
 }
 
 @font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-Italic.otf");
+  font-family: Gibson-Bold;
+  src: url("../fonts/Gibson/Gibson-Bold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-Light.otf");
+  font-family: Gibson-BoldI;
+  src: url("../fonts/Gibson/Gibson-BoldItalic.otf") format("opentype");
 }
 
 @font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-LightItalic.otf");
-} */
-
-/* @font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-Regular.otf");
-} */
-
-/* @font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-SemiBold.otf");
+  font-family: Gibson-I;
+  src: url("../fonts/Gibson/Gibson-Italic.otf") format("opentype");
 }
 
-@font-face {
-    font-family: Gibson;
-    src: url("../fonts/._Gibson-SemiBoldItalic.otf");
-} */
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
 
 /******* Window View *******/
 #main {
@@ -54,16 +38,16 @@
 
 #motto {
   color: #f9eddc;
-  /* font-family: "Gibson-bold"; */
-  font-weight: 700;
-  font-size: 48px;
+  font-family: Gibson;
+  font-weight: 1000;
+  font-size: 45px;
   line-height: 47px;
 }
 
 .description {
   color: #f9eddc;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: normal;
 }
 
@@ -75,7 +59,6 @@
 }
 
 #signup-descr {
-  /* font-family: Gibson-bold; */
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -99,6 +82,14 @@
   border-radius: 0%;
 }
 
+.form-row button {
+  background-color: #f9a058;
+  color: #701f58;
+  font-family: Gibson;
+  font-weight: 600;
+  width: 100%;
+}
+
 /**** Mobile View ****/
 #small-v {
   overflow-x: hidden;
@@ -115,30 +106,46 @@
   background-color: rgba(112, 31, 88, 0.7);
   position: absolute;
   left: 0;
-  min-width: 100%;
-  height: 100%;
-  overflow-x: hidden;
+  width: 100%;
+  min-height: 50%;
+  overflow: hidden;
+  /* overflow-x: hidden; */
 }
 
-#mainTxt h3 {
+#titleTxt h3 {
   color: #f9eddc;
-  /* font-family: gibson-b; */
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 47px;
+  font-family: Gibson;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 40px;
 }
 
 #description-sm-v {
   background-color: #701f58;
 }
 
-.launching-mv {
-  font-weight: 600;
+.description-sm {
+  color: #f9eddc;
+  font-family: Gibson;
+  /* font-weight: 100; */
+  font-size: 15px;
+  line-height: normal;
 }
 
-#motto-mv {
+.launching-mv {
+  font-size: 16px;
+  /* font-weight: 600; */
+}
+
+#signup-info-mv {
   color: #f9a058;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 47px;
+}
+
+@media only screen and (max-width:400px) {
+  #signup-info-mv {
+    font-size: 16px;
+  }
 }
