@@ -1,3 +1,45 @@
+/******* Fonts ********/
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-Bold.otf");
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-Italic.otf");
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-Light.otf");
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-LightItalic.otf");
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-Regular.otf");
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-SemiBold.otf");
+}
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/._Gibson-SemiBoldItalic.otf");
+}
+
+/******* Window View *******/
 #main {
     height: 100vh;
     background: url("../images/AdobeStock_300143060.jpeg");
