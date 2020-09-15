@@ -52,19 +52,23 @@
             </div>
             <!-- End of Motto -->
             <!-- Start of Form -->
-            <div class="form">
-              <p class="form-info">
-                Launching Spring 2020. Want to know more?
-                <br>
+            <form action="https://letslive.us4.list-manage.com/subscribe/post" method="POST" id="form">
+              <input type="hidden" name="u" value="fe659cbbc7a7f681e888d2aaf">
+              <input type="hidden" name="id" value="50330d70c0">
+              <!-- Text -->
+              <p class="form-info">Launching Spring 2020. Want to know more? <br>
                 <span id="signup-descr">Sign up below for launch updates</span>
               </p>
+              <!-- Start of Real Form -->
               <!-- Start Name Form -->
               <div class="form-row">
                 <div id="name" class="col">
-                  <input type="text" name="firstName" class="form-control transparent sharp" placeholder="First Name" >
+                  <input type="text" name="MERGE1" id="MERGE1" class="form-control transparent sharp"
+                    placeholder="First Name" required>
                 </div>
                 <div id="lastname" class="col">
-                  <input type="text" name="lastName" class="form-control transparent sharp" placeholder="Last Name" >
+                  <input type="text" name="MERGE2" id="MERGE2" class="form-control transparent sharp"
+                    placeholder="Last Name" required>
                 </div>
               </div>
               <!-- End of Name Form -->
@@ -72,13 +76,12 @@
               <!-- Second Sign Up Form -->
               <div class="form-row">
                 <div class="col-lg-9">
-                  <input type="email" name="email" class="form-control transparent sharp" placeholder="Enter your email address" >
+                  <input type="email" name="MERGE0" id="MERGE0" class="form-control transparent sharp"
+                    placeholder="Enter your email address" required>
                 </div>
-                <div class="col">
-                  <button type="button" class="btn sharp" value="Send"> SEND </button>
-                </div>
+                <input id="submit" type="submit" value="Send" class="btn sharp col mt-3 mt-lg-0">
               </div>
-            </div>
+            </form>
             <!-- End of Second Sign Up Form -->
             <!-- End of Form -->
           </div>
@@ -137,17 +140,22 @@
           </div>
           <br />
           <!-- Start of Form -->
-          <div class="form pb-5 pl-4 pr-4">
+          <form action="https://letslive.us4.list-manage.com/subscribe/post" method="POST" id="mobile-form"
+            class="form pb-5 pl-4 pr-4">
+            <input type="hidden" name="u" value="fe659cbbc7a7f681e888d2aaf">
+            <input type="hidden" name="id" value="50330d70c0">
             <div id="signup-info-mv">
               <p>Sign up below for launch updates!</p>
             </div>
             <!-- Start Name Form -->
             <div class="form-row">
               <div id="name" class="col">
-                <input type="text" class="form-control transparent sharp" placeholder="First Name" />
+                <input type="text" name="MERGE1" id="MERGE1" class="form-control transparent sharp"
+                  placeholder="First Name" />
               </div>
               <div id="lastname" class="col">
-                <input type="text" class="form-control transparent sharp" placeholder="Last Name" />
+                <input type="text" name="MERGE2" id="MERGE2" class="form-control transparent sharp"
+                  placeholder="Last Name" />
               </div>
             </div>
             <!-- End of Name Form -->
@@ -155,16 +163,18 @@
             <!-- Second Sign Up Form -->
             <div class="form-row">
               <div class="col">
-                <input type="email" class="form-control transparent sharp" placeholder="Enter your email address" />
+                <input type="email" name="MERGE0" id="MERGE0" class="form-control transparent sharp"
+                  placeholder="Enter your email address" />
               </div>
             </div>
             <br />
             <div class="form-row">
               <div class="col-12">
-                <input type="button" class="btn btn-lg btn-block btn-warning sharp font-weight-strong" value="Send" placeholder="SEND" />
+                <input type="submit" id="submit" value="Send"
+                  class="btn btn-lg btn-block btn-warning sharp font-weight-strong" placeholder="SEND" />
               </div>
             </div>
-          </div>
+          </form>
           <!-- End of Form -->
         </div>
       </div>
