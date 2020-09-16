@@ -30,10 +30,25 @@
   background: url("../images/AdobeStock_300143060.jpeg");
   background-size: cover;
   position: relative;
+  overflow-y: hidden;
 }
 
 .overlay-effect {
   background-color: rgba(112, 31, 88, 0.7);
+}
+
+.text-cream { color: #f9eddc; }
+
+.text-orange { color: #f9a058; }
+
+.bg-purple { background-color: #701f58; }
+
+.full-screen { 
+  height: 100vh; 
+}
+
+.middle-screen {
+  vertical-align: middle;
 }
 
 #motto {
@@ -58,7 +73,7 @@
   line-height: normal;
 }
 
-#signup-descr {
+.signup-descr {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -67,9 +82,10 @@
 
 .transparent {
   background-color: transparent;
-  border: 0;
-  outline: 0;
-  border-bottom: 2px solid white;
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0% !important;
+  border-bottom: 2px solid white !important;
 }
 
 .transparent:focus {
@@ -88,18 +104,24 @@ input:placeholder-shown,
   opacity: 1;
 }
 
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   color: white;
 }
 
-.form-row button {
-  background-color: #f9a058;
-  color: #701f58;
-  font-family: Gibson;
-  font-weight: 600;
-  width: 100%;
+.form-row .btn {
+  background-color: #f9a058 !important;
+  color: #701f58 !important;
+  font-family: Gibson !important;
+  font-weight: 600 !important;
+  width: 100% !important;
 }
+
+option {
+  background-color: #701f58;
+}
+
+#mc_embed_signup { clear: left; }
 
 /**** Mobile View ****/
 #small-v {
