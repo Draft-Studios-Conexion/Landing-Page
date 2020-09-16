@@ -150,7 +150,7 @@ option {
   font-family: Gibson;
   font-weight: 900;
   font-size: 38px;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 
 #description-sm-v {
@@ -165,15 +165,10 @@ option {
   line-height: normal;
 }
 
-.launching-mv {
-  font-size: 16px;
-}
-
-#signup-info-mv {
+.signup-info-mv {
   color: #f9a058;
   font-weight: 700;
   font-size: 20px;
-  line-height: 47px;
 }
 
 @media only screen and (orientation: landscape) and (max-width: 740px) and (max-height: 435px) {
