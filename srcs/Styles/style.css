@@ -44,7 +44,15 @@
 .bg-purple { background-color: #701f58; }
 
 .font-gibson { 
-  font-family: Gibson;
+  font-family: Gibson !important;
+}
+
+.font-bold-gibson {
+  font-family: Gibson-Bold;
+}
+
+.font-italic-gibson {
+  font-family: Gibson-I;
 }
 
 #motto {
@@ -111,6 +119,7 @@ input[type="email"] {
   font-family: Gibson !important;
   font-weight: 600 !important;
   width: 100% !important;
+  border-radius: 0% !important;
 }
 
 option {
