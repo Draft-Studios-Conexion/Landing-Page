@@ -145,7 +145,7 @@ option {
   position: absolute;
   left: 0;
   width: 100%;
-  min-height: 100%;
+  height: 82%;
   overflow: hidden;
   /* overflow-x: hidden; */
 }
@@ -209,4 +209,16 @@ option {
   #signup-info-mv {
     font-size: 15px;
   }
+}
+
+
+/* ! *** Thank you *** ! */
+#thank-you {
+  font-weight: 1000;
+  font-size: 35px;
+  line-height: 47px;
+}
+
+.line-height {
+  line-height: 34px;
 }
