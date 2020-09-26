@@ -176,6 +176,13 @@ option {
   font-size: 20px;
 }
 
+@media only screen and (max-width: 500px){
+  #titleTxt h3 {
+    font-size: 30px !important;
+    line-height: 30px;
+  }
+}
+
 @media only screen and (orientation: landscape) and (max-width: 740px) and (max-height: 435px) {
   #main {
     display: none !important;
@@ -194,8 +201,8 @@ option {
 
 @media only screen and (max-width: 350px) {
   #titleTxt h3 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 28px;
   }
 
   .description-sm {
