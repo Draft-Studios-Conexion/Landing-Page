@@ -106,7 +106,15 @@
   display: block !important;
 }
 
+#industry-other-sm.input-show{
+  display: block !important;
+}
+
 #jobrole-other.input-show{
+  display: block !important;
+}
+
+#jobrole-other-sm.input-show{
   display: block !important;
 }
 
